@@ -1,0 +1,18 @@
+/*10. Faça um programa que leia um número e exiba a tabuada 
+desse número até o valor 10*/
+
+import java.util.Scanner;
+
+public class ExCarioca10 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a, indice;
+        System.out.println("Digite um número inteiro:");
+        a = scanner.nextInt();
+        
+        for(indice=1; indice<(10+1); indice++){
+            System.out.println(a+"x"+indice+"="+(a*indice));
+        }
+    }
+}

@@ -1,0 +1,18 @@
+/*5.Faça um programa que leia um número e exiba se ele é par ou 
+ímpar.*/
+
+import java.util.Scanner;
+
+public class ExCarioca5 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        double a, resto;
+        System.out.print("Digite um número:");
+        a= scanner.nextDouble();
+        resto = a%2;
+        if(resto==0){System.out.println(a+" é um par.");}
+        if(resto!=0){System.out.println(a+" é um ímpar");}
+    }
+}

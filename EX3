@@ -1,0 +1,19 @@
+/*3. Escreva um programa que leia um valor inteiro N e exiba todos 
+os números de 1 a N.*/
+
+import java.util.Scanner;
+
+public class ExCarioca3 {
+
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        int a, indice, limite;
+        System.out.print("Digite um número inteiro:");
+        a= scanner.nextInt();
+        limite= a+1;
+    
+        for(indice=1; indice<limite; indice++){
+        System.out.print(indice+ " ");}
+    }
+}

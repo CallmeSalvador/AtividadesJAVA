@@ -1,0 +1,19 @@
+/*6. Escreva um programa que calcule e exiba a média de três 
+notas informadas pelo usuário.*/
+
+import java.util.Scanner;
+
+public class ExCarioca6 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double a, b, c, soma;
+        System.out.print("Digite a primeira nota:");
+        a= scanner.nextDouble();
+        System.out.print("Digite a segunda nota:");
+        b= scanner.nextDouble();
+        System.out.print("Digite a terceira nota:");
+        c= scanner.nextDouble();
+        soma= a+b+c;
+        System.out.println("a média é "+ (soma/3));
+    }
+}

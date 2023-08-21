@@ -1,0 +1,24 @@
+/*7. Faça um programa que leia um número inteiro N e exiba a 
+sequência de Fibonacci até o N-ésimo termo.*/
+
+import java.util.Scanner;
+
+public class ExCarioca7 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a, indice, anterior1, anterior2, atual;
+        System.out.println("Digite um número inteiro:");
+        a = scanner.nextInt();
+        anterior1=0;
+        anterior2=0;
+        atual=1;
+        
+        for(indice=0; indice<a; indice++){
+            System.out.print(atual+" ");
+            anterior1= anterior2;
+            anterior2= atual;
+            atual=anterior1+ anterior2;
+        }
+    }
+}

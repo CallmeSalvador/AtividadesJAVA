@@ -1,0 +1,20 @@
+/* 2.Faça um programa que leia um número inteiro e exiba se ele é 
+positivo, negativo ou igual a zero.*/
+
+import java.util.Scanner;
+
+public class ExCarioca2 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a;
+        System.out.println("Digite um número inteiro:");
+        a = scanner.nextInt();
+        if(a==0){System.out.println(a+ " é zero");}
+        else{
+            if(a>0){ System.out.println(a+" é positivo");}
+            else{System.out.println(a+" é negativo");}
+        }
+
+    }
+    
+}

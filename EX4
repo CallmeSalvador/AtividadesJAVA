@@ -1,0 +1,26 @@
+/*4. Crie um programa que receba três números e exiba o maior 
+deles.*/
+
+import java.util.Scanner;
+
+public class ExCarioca4 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double a, b, c;
+        System.out.print("Digite um número:");
+        a= scanner.nextDouble();
+        System.out.print("Digite mais um número:");
+        b= scanner.nextDouble();
+        System.out.print("Digite outro número:");
+        c= scanner.nextDouble();
+        
+        if(a>b){
+            if(a>c){System.out.println(a+" é o maior entre os três.");}
+            else{System.out.println(c+" é o maior entre os três.");}
+       }
+        else{
+            if(b>c){System.out.println(b+" é o maior entre os três.");}
+            else{System.out.println(c+" é o maior entre os três.");}
+        }
+    }
+}
