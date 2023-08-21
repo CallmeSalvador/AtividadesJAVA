@@ -3,8 +3,8 @@
 
 Exercícios |  Matéria/Curso  |  Professor(a)  | Data
 ------| -----| ------| -------
-1 ao 10 | estrutura de dados | Renato Carioca | 08/2023
-xxx | linguagem da programação | Jefferson Zannuto | 04 e 05/2023
+BX1 ao 10 | estrutura de dados | Renato Carioca | 08/2023
+AX1 ao 30 | linguagem da programação | Jefferson Zannuto | 04 e 05/2023
 
 
 
