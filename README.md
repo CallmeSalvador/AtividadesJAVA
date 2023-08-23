@@ -4,8 +4,8 @@
 Exercícios |  Matéria/Curso  |  Professor(a)  | Data
 ------| -----| ------| -------
 CX1 e 2 | estrutura de dados | Renato Carioca | 21/08/2023
-BX1 ao 10 | estrutura de dados | Renato Carioca | 14/08/2023
-AX1 ao 30 | linguagem da programação | Jefferson Zannuto | 04 e 05/2023
+AX1 ao 10 | estrutura de dados | Renato Carioca | 14/08/2023
+ZX1 ao 30 | linguagem da programação | Jefferson Zannuto | 04 e 05/2023
 
 
 
