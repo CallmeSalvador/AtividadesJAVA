@@ -3,7 +3,7 @@
 
 Exercícios |  Matéria/Curso  |  Professor(a)  | Data
 ------| -----| ------| -------
-CX1 e 2 | estrutura de dados | Renato Carioca | 21/08/2023
+BX1 e 2 | estrutura de dados | Renato Carioca | 21/08/2023
 AX1 ao 10 | estrutura de dados | Renato Carioca | 14/08/2023
 ZX1 ao 30 | linguagem da programação | Jefferson Zannuto | 04 e 05/2023
 
@@ -12,7 +12,7 @@ ZX1 ao 30 | linguagem da programação | Jefferson Zannuto | 04 e 05/2023
 
 ---
 
-**Exercícios BX1 ao 10 (Revisando o conhecimento em java):**
+## Exercícios AX1 ao 10 (Revisando o conhecimento em java):
 1. Crie um programa que receba dois números inteiros e exiba a soma deles;
 2. Faça um programa que leia um número inteiro e exiba se ele é 
 positivo, negativo ou igual a zero;
@@ -32,7 +32,7 @@ e exiba a média das idades; ( não finalizado)
  1. Faça um programa que leia um número e exiba a tabuada 
 desse número até o valor 10;
 
-**Exercícios CX1 E 2 (Revisando o conhecimento em java):**
+## Exercícios BX1 E 2 (Revisando o conhecimento em java):
 Exercício para contruir classes: 
 1. Criar uma classe Java chamada Aluno para modelar estudantes. A classe deve possuir os seguintes 
 atributos de dados (propriedades): 
@@ -61,3 +61,6 @@ Para cada objeto chamar a função ImprimeAluno() para imprimir os dados dos doi
 funções Media_Aluno() e Resultado() . 
 Executar para cada objeto criado a função ImprimeSexo(). 
 A classe deve ser criada dentro de um package chamado uscs.
+
+# Materias de apoio
+_materiais e utilitários importantes para a realização dessas atividades_
