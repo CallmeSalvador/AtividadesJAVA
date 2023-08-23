@@ -1,0 +1,64 @@
+package fsa;
+
+public class Aluno {
+    public String nome;
+    public String cpf;
+    public char sexo;
+    public int codmat;
+    public double nota_P1;
+    public double nota_P2;
+    public double nota_P3;
+    public double media;
+    
+    public void ImprimeAluno(){
+        
+        System.out.println("Nome do aluno: "+ nome);
+        System.out.println("CPF: "+ cpf);
+        System.out.println("RA: "+ codmat);
+    }
+    
+    public void ImprimeSexo(){
+        
+        if(sexo == 'F'){System.out.println("O aluno(a) "+ nome+ "é do sexo feminino");}
+        if(sexo == 'M'){System.out.println("O aluno(a) "+ nome+ "é do sexo masculino");}
+    }
+    
+    public double MediaAluno(){
+        
+        double media;
+        media = 0;
+        
+        /*if(nota_P1<nota_P2){if(nota_P1<nota_P3){ media = (nota_P2 + nota_P3)/2;}}
+        else{
+            if(nota_P2<nota_P1){if(nota_P2<nota_P3){ media = (nota_P1 + nota_P3)/2;}}
+            else{ media = (nota_P1 + nota_P2)/2;}
+        }*/
+        
+        if(nota_P1<nota_P2){if(nota_P1<nota_P3){ media = (nota_P2 + nota_P3)/2;}}
+        if(nota_P2<nota_P1){if(nota_P2<nota_P3){ media = (nota_P1 + nota_P3)/2;}}
+        if(nota_P3<nota_P1){if(nota_P3<nota_P2){ media = (nota_P1 + nota_P2)/2;}}
+
+        return media;
+}
+    
+    public String Resultado(double media){
+        String resultado;
+        
+        if(media>=6){ resultado = "Aprovado";}
+        else{resultado = "Reprovado";}
+        System.out.println("Status: "+ resultado + " com média: "+ media);
+        System.out.println(" ");
+
+       
+        return resultado;
+    }
+    public Aluno( String nome, String cpf, char sexo, int codmat, double nota_P1, double nota_P2, double nota_P3){
+        this.nome = nome;
+        this.cpf = cpf;
+        this.codmat = codmat;
+        this.nota_P1 = nota_P1;
+        this.nota_P2 = nota_P2;
+        this.nota_P3 = nota_P3;
+    }
+    
+}

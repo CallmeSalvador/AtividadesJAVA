@@ -1,0 +1,17 @@
+package fsa;
+
+public class TesteAluno {
+
+    public static void main(String[] args) {
+        Aluno X1 = new Aluno("Paulo","800912345-12",'M',55123,7.0, 6.0, 8.0);
+        Aluno X2 = new Aluno("Ana","500876123-15",'F',991239,2.0, 6.0, 9.0);
+        
+        X1.ImprimeAluno();
+        X1.ImprimeSexo();
+        X1.Resultado(X1.MediaAluno());
+        X2.ImprimeAluno();
+        X2.ImprimeSexo();
+        X2.Resultado(X2.MediaAluno());
+    }
+    
+}
