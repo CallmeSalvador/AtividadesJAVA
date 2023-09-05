@@ -62,5 +62,36 @@ funções Media_Aluno() e Resultado() .
 Executar para cada objeto criado a função ImprimeSexo(). 
 A classe deve ser criada dentro de um package chamado uscs.
 
+## Exercícios de Recursividade.
+1. Fazer uma classe Recursividade com o código abaixo:
+public class Recursividade {
+ public static void main(String[] args) {
+ // aqui vai o código que chama as funções recursivas
+ }
+ public static int factorial(int n) {
+ if (n == 0) {
+ return 1;
+ } else {
+ return n * factorial(n - 1);
+ }
+ }
+ private static int Fibonacci(int num) {
+ if (num==0 || num==1)
+ return num;
+ else
+ return (Fibonacci(num-1) + Fibonacci (num-2));
+ }
+}
+2. Escrever dentro de main um programa que mostra o fatorial de 5
+3. Escrever dentro de main um programa que mostra o fibonacci de 9
+4. Escrever uma função recursiva dentro da classe Recursividade para calcular a potência de um número 
+base elevado a um expoente.
+5. Escrever dentro de main um programa que mostra a potência de 2 elevado a 4.
+6. Escrever uma função recursiva dentro da classe Recursividade para calcular a soma de todos os 
+elementos em um array de inteiros.
+7. Escrever dentro de main um programa que mostra a soma dos números do array { 1, 2, 3, 4, 5 };
+
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=CallmeSalvador&repo=Atividade-Java-recursividade&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)](https://github.com/SEUUSERNAME/SEUREPOSITORIO)
+
 # Materias de apoio
 _materiais e utilitários importantes para a realização dessas atividades_
