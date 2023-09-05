@@ -91,7 +91,7 @@ base elevado a um expoente.
 elementos em um array de inteiros.
 7. Escrever dentro de main um programa que mostra a soma dos números do array { 1, 2, 3, 4, 5 };
 
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=CallmeSalvador&repo=Atividade-Java-recursividade&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)](https://github.com/SEUUSERNAME/SEUREPOSITORIO)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=CallmeSalvador&repo=Atividade-Java-recursividade&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)](https://github.com/CallmeSalvador/Atividade-Java-recursividade)
 
 # Materias de apoio
 _materiais e utilitários importantes para a realização dessas atividades_
